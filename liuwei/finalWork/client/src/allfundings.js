@@ -73,7 +73,7 @@ class allfundings extends  React.Component {
                         <div className="sidebar-brand-icon rotate-n-15">
                             <i className="fas fa-laugh-wink"/>
                         </div>
-                        <div className="sidebar-brand-text mx-3">众筹系统 <sup>zju</sup></div>
+                        <div className="sidebar-brand-text mx-3">募捐系统 <sup>zju</sup></div>
                     </a>
 
                     {/*<!-- Divider -->*/}
@@ -88,7 +88,7 @@ class allfundings extends  React.Component {
                     <li className="nav-item active">
                         <Link className="nav-link" to='/allfundings'>
                             <i className="fas fa-fw fa-tachometer-alt"/>
-                            <span>所有众筹</span></Link>
+                            <span>所有募捐</span></Link>
                     </li>
                     {/*<!-- Divider -->*/}
                     {/*<hr className="sidebar-divider">*/}
@@ -96,7 +96,7 @@ class allfundings extends  React.Component {
                     <li className="nav-item">
                         <Link className="nav-link" to='/createfunding'>
                             <i className="fas fa-fw fa-tachometer-alt"/>
-                            <span>发起众筹</span></Link>
+                            <span>发起募捐</span></Link>
                     </li>
 
                     {/*<!-- Divider -->*/}
@@ -106,14 +106,14 @@ class allfundings extends  React.Component {
                         <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                            aria-expanded="true" aria-controls="collapseTwo">
                             <i className="fas fa-fw fa-tachometer-alt"/>
-                            <span>我的众筹</span>
+                            <span>我的募捐</span>
                         </a>
                         <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo"
                              data-parent="#accordionSidebar">
                             <div className="bg-white py-2 collapse-inner rounded">
-                                <h6 className="collapse-header">我的众筹:</h6>
-                                <Link className="collapse-item" to="/my_launch_fundings">我发起的众筹</Link>
-                                <Link className="collapse-item" to="/my_joined_fundings">我参与的众筹</Link>
+                                <h6 className="collapse-header">我的募捐:</h6>
+                                <Link className="collapse-item" to="/my_launch_fundings">我发起的募捐</Link>
+                                <Link className="collapse-item" to="/my_joined_fundings">我参与的募捐</Link>
                             </div>
                         </div>
                     </li>
@@ -136,7 +136,7 @@ class allfundings extends  React.Component {
                                 className="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                                 <div className="input-group">
                                     <input type="text" className="form-control bg-light border-0 small"
-                                           placeholder="搜索众筹项目"
+                                           placeholder="搜索募捐项目"
                                            aria-label="Search" aria-describedby="basic-addon2"/>
                                     <div className="input-group-append">
                                         <button className="btn btn-primary" type="button">
@@ -197,7 +197,7 @@ class allfundings extends  React.Component {
                                                 return (
                                                     <div className="card mb-4 py-3 border-left-warning">
                                                         <div className="card-body">
-                                                            众筹项目名称： {item.title}
+                                                            募捐项目名称： {item.title}
                                                             <span className={this.Is_complete_style(index)}>{this.Is_complete(index)}</span>
                                                             <Link className="btn btn-info" style={{float:"right"}}
                                                                   to={{ pathname: '/funding_detail/' + index}}>查看详情</Link>
