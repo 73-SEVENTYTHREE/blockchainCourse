@@ -1,4 +1,4 @@
-# 众筹Dapp项目部署说明
+# 募捐Dapp项目部署说明
 
 ### 配置环境
 
@@ -34,7 +34,7 @@
 
    ![image-20210114233749783](assets/index.jpg)
 
-2. 查看所有众筹项目界面
+2. 查看所有募捐项目界面
 
    ![image-20210114233907622](assets/allfundings.jpg)
 
@@ -42,7 +42,7 @@
 
    ![image-20210114234021273](assets/funding_detail.jpg)
 
-4. 发起众筹页
+4. 发起募捐页
 
    ![image-20210114234110758](assets/create_funding.jpg)
 
@@ -52,7 +52,7 @@
 
    ![image-20210114234257217](assets/my_launch_funding_detail_2.jpg)
 
-6. 我参与的众筹详情页
+6. 我参与的募捐详情页
 
    ![image-20210114234355495](assets/my_joined_funding_detail_1.jpg)
 
